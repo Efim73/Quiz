@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('cartoon-jungle-landscape-on-snowy-mountains-background.jpg');
+
+}
+
+h1 {
+
+    font-family: 'Grandstander', cursive;
+    font-size: 120px;
+    transform: rotate(-5deg);
+    -webkit-text-stroke: 5px #222;
+    background: rgb(245, 223, 96);
+    background: linear-gradient(180deg, rgba(245, 223, 96, 1) 0%, rgba(255, 169, 82, 1) 100%);
+    -webkit-background-clip: text;
+    color: rgba(255, 228, 196, 0);
+
+}
+
+a {
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+    border: 5px solid #222;
+    padding: 10px 30px;
+    color: #222;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(221, 255, 205, 1) 50%, rgba(197, 255, 170, 1) 75%, rgba(221, 255, 205, 1) 100%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-position: top;
+}
+
+form {
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
