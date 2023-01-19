@@ -19,6 +19,7 @@ h1 {
     background: linear-gradient(180deg, rgba(245, 223, 96, 1) 0%, rgba(255, 169, 82, 1) 100%);
     -webkit-background-clip: text;
     color: rgba(255, 228, 196, 0);
+    transition: 0.5s;
 
 }
 h2{
